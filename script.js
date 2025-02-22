@@ -15,10 +15,7 @@ noButton.addEventListener('mouseover', () => {
   moveButton(noButton);
 });
 
-// Event listener for the "Yes" button (moves on hover but shows alert on click)
-yesButton.addEventListener('mouseover', () => {
-  moveButton(yesButton);
-});
+// "Yes" button stays still
 
 yesButton.addEventListener('click', () => {
   alert('Yay! Let’s go out for lunch! 🥳');
